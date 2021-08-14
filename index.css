@@ -1,0 +1,175 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  background-color: rgb(53, 53, 53);
+}
+
+.logo{
+  color:rgb(6, 131, 68);
+  letter-spacing: 5px;
+
+}
+.nav-ul{
+  display:flex;
+  justify-content: space-around;
+  width: 20%;
+}
+ nav li{
+  list-style: none;
+}
+.nav-ul a{
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color:rgb(170, 170, 170);
+}
+.nav-ul li{
+  margin-left: 25px;
+}
+.about-us-info {
+  right:0;
+
+}
+  
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ion-icon {
+  --ionicon-stroke-width: 40px;
+}
+.add-item-form li {
+  list-style-type: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size:  20px;
+  text-align: center;
+  float: center;
+  display: inLine;
+}
+.test li {
+  /* list-style-type: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* font-size:  15px; */
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: left;
+  margin : 10px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* float:center;
+  display: inLine; */ 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:  115px;
+    text-align: center;
+}
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:  20px;
+    text-align: center;
+    margin: 5px;
+}
+h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* font-size:  15px; */
+  text-align: center;
+  margin-top: 20px;
+}
+.add-item-form {
+    margin: 50px 0px;
+    padding: 0px;
+    text-align: center;
+}
+.items-list{
+  height: 30px;
+  margin-top: 30px;
+}
+.input-text{
+  width: 15%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.formbtn{
+  position: absolute;
+    background-color:rgb(53, 53, 53);
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+    margin: 2px;
+}
+.suggested-recipe-cards {
+    text-align: center;
+    border: lightgrey solid 10px;
+    padding: 1rem;
+    width: 15rem;
+    height: auto;
+    display: inline-grid;
+    margin: 1rem 2rem;
+   
+  }
+  .recipe-image img{
+    margin:10px;
+  }
+  .wine-pairing-cards {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px grey
+  }
+  .li-text{
+    font-size: 1.4rem;
+  }
+  .popular-recipe-card {
+    text-align: center;
+    border: lightgrey solid 10px;
+    padding: 1rem;
+    width: 15rem;
+    height: 20rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+  }
+  h5{
+    font-size: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+  }
+  .card-mouse-over{
+    text-align: center;
+    border: rgb(53, 53, 53) solid 10px;
+    padding: 1rem;
+    width: 15rem;
+    height: auto;
+    display: inline-grid;
+    margin: 1rem 2rem;
+   
+  }
